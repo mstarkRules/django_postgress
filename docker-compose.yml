@@ -14,6 +14,8 @@ services:
       - PG_HOST=db
     depends_on:
       - db
+    volumes:
+      - .:/app # Mount the current directory (your Django project) to /app in the container
 
   db:
     container_name: db

@@ -1,0 +1,111 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Distribution / packaging
+.Python
+_build/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# PyInstaller
+#  Usually these files are written into a dist folder.
+#  On some operating systems, these files are written into the project root directory instead.
+/dist/
+/build/
+/*.manifest
+/*.spec
+
+# Django stuff:
+*.log
+*.pot
+*.db
+*.pyc
+/media
+/static
+/staticfiles
+staticfiles/
+mediafiles/
+
+# Poetry
+poetry.lock
+
+# Sphinx documentation
+docs/_build/
+
+# MkDocs documentation
+site/
+
+# Passlib
+.passlib/
+
+# Celery / RabbitMQ
+celerybeat-schedule
+celeryev.db
+
+# Unit test / coverage reports
+*.coverage
+*.lcov
+nosetests.xml
+coverage.xml
+*.cover
+.cache
+pytest_cache/
+.pytest_cache/
+htmlcov/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# OS or Editor related files
+.DS_Store
+Thumbs.db
+.vscode/
+*.swp
+~$*
+*.swo
+.idea/
+.project
+.settings
+*.orig
+*.rej
+*.tmproj
+*.sublime-project
+
+# General
+*.bak
+*.tmp
+*~
+*.orig
+*.swp
+*.lock
+*.DS_Store
+
+# Docker
+docker-compose.override.yml
